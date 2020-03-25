@@ -2,7 +2,7 @@
 Extract and minify styles according to the Media Queries, find unused modules from package.json
 
 
-## How to use
+## HOW TO USE
 
 ### STEP 1
 
@@ -30,12 +30,10 @@ Copy and replace following files into your project root/folder<br />
 ### STEP 4
 
 You can mention media queries in web-pack configuration files <br /> 
-<br />
-/webpack.config.js  - `Line 138--`<br />
-/webpack.production.config.js  - `Line 131--`<br />
-/webpack.staging.config.js  - `Line 132--`<br />
-<br />
-<br />
+  */webpack.config.js  - `Line 138--`<br />
+  */webpack.production.config.js  - `Line 131--`<br />
+  */webpack.staging.config.js  - `Line 132--`<br />
+
 For Example : Now I'm Using <br />
 ```
 queries: {
@@ -51,9 +49,9 @@ queries: {
 Depend on the above noted queries, your style will separate in to different files<br />
 According to the above noted queries, you will get the following files.<br />
 <br />
-`style-desktop.css` can use for view-port above 992px<br />
-`style-tablet.css` can use for view-port above 768px<br />
-`style.css` rest of the styles will load here<br />
+ *style-desktop.css* can use for view-port above 992px<br />
+ *style-tablet.css* can use for view-port above 768px<br />
+ *style.css* rest of the styles will load here<br />
 <br />
 <br />
 According to the view-port you can load in to your page<br />
